@@ -1,0 +1,5 @@
+Firstly, we start with a flickr8k dataset which contains captions for 8k images.
+We start with preprocessing that into a key-value pair where the keys contain img-id and values contain captions for that id.
+We assign index to words and words to an index to predict the sequence.
+We use transfer learning to identify objects in a image using CNN and later pass that to RNN
+RNN predicts sequence the words and later form that into a sentence(caption). 
